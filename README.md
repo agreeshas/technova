@@ -12,46 +12,38 @@ Member 2: Angela Aliyamma Regi –Mar Athanasius College of Engineering
 
  Hosted Project Link
 
-[https://your-project-link.com](https://your-project-link.com)
+relationship-health-monitor.netlify.app
 
----
-
-## Project Description
+ Project Description
 
 Relationship Health Monitor is an AI-powered web application that analyzes text messages and voice recordings to detect red flags and green flags in relationships. It evaluates emotional patterns, assigns a health score, and provides supportive insights to help users recognize toxic or healthy communication.
 
----
-
-## The Problem Statement
+ The Problem Statement
 
 Many people experience emotional manipulation, gaslighting, guilt-tripping, or unhealthy communication in relationships but fail to recognize these patterns early. Subtle toxic behaviors often go unnoticed until serious emotional harm occurs.
 
----
-
-## The Solution
+ The Solution
 
 Our solution uses AI to analyze conversations (text or audio) and detect behavioral patterns in real time. The system identifies red flags, green flags, calculates a relationship health score, and provides actionable insights and support resources to empower users with awareness.
 
----
+ Technical Details
 
-# Technical Details
+ Technologies/Components Used
 
-## Technologies/Components Used
+ For Software
 
-### For Software
-
-**Languages used:**
+Languages used:
 
 * JavaScript
 * Python
 * HTML
 * CSS
 
-**Frameworks used:**
+Frameworks used:
 
 * FastAPI
 
-**Libraries used:**
+Libraries used:
 
 * Pydantic
 * Fetch API
@@ -64,9 +56,7 @@ Our solution uses AI to analyze conversations (text or audio) and detect behavio
 * Uvicorn
 * Groq API
 
----
-
-# Features
+Features
 
 Feature 1: Text Message Analysis – Detects red and green flags from typed conversations.
 
@@ -80,13 +70,10 @@ Feature 5: Structured Emotional Report – Provides explanation, actionable advi
 
 Feature 6: Privacy-Focused – No user data is stored.
 
----
+ Implementation
 
-# Implementation
-
-## For Software
-
-### Installation
+ For Software
+ Installation
 
 ```bash
 git clone https://github.com/your-username/relationship-health-monitor.git
@@ -99,7 +86,7 @@ pip install -r requirements.txt
 
 ---
 
-### Run
+ Run
 
 ```bash
 uvicorn app.main:app --reload
@@ -108,12 +95,10 @@ uvicorn app.main:app --reload
 Open in browser:
 
 ```
-http://127.0.0.1:8000
+[http://127.0.0.1:8000](https://agreeshas.github.io/technova/ )
 ```
 
----
-
-# Project Documentation
+ Project Documentation
 
 Relationship Health Monitor works in three main stages:
 
@@ -121,15 +106,7 @@ Relationship Health Monitor works in three main stages:
 2. Processing Stage – Audio is transcribed using Whisper AI, then analyzed using LLM.
 3. Output Stage – The system returns structured JSON containing red flags, green flags, health score, grade, and supportive insights.
 
+Drive link ( Screenshot & screen records :https://drive.google.com/drive/folders/1fPU2vpwJAsZKJgZ9F1V09Su3zPiS7ht_
+
 The application is designed as an awareness and educational tool to promote emotional safety and healthier communication.
 
----
-
-If you want, I can now:
-✅ Make this more professional (judge-ready version)
-✅ Add architecture diagram section
-✅ Add screenshots section
-✅ Customize with your actual team names and college
-✅ Reduce to 1-page compact version
-
-Tell me what you want next 🚀
